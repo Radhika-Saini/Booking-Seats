@@ -13,7 +13,7 @@ remainingSeatsElement.textContent=remainingSeats;
 seats.forEach(function (seat){
     seat.addEventListener("mousedown",function (event){
         flag=true;
-        seat.classList.toggle("booked");4
+        seat.classList.toggle("booked");
         seat.classList.contains("booked")? bookSeats():unBookSeats();
     });
     seat.addEventListener("mouseup",function (event){
